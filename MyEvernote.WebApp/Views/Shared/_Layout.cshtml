@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Shop Homepage - Start Bootstrap Template</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="~/Content/styles.css" rel="stylesheet" />
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- Core theme JS-->
+    <script src="~/Scripts/scripts.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#!">My Evernote</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#!"><span class="bi bi-wrench fw-bold"></span>&nbsp;Yönetim</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#!"><span class="bi bi-heart fw-bold"></span>&nbsp;En Beğenilenler</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#!"><span class="bi bi-list fw-bold"></span>&nbsp;Son Yazılanlar</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#!"><span class="bi bi-info-circle-fill fw-bold"></span>&nbsp;Hakkımızda</a></li>
+                </ul>
+                <ul class="navbar-nav me-1 mb-2 mb-lg-0 ms-lg-5">
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#!"><span class="bi bi-door-open fw-bold"></span>&nbsp;Giriş</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#!"><span class="bi bi-person-plus-fill fw-bold"></span>&nbsp;Üye Ol</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#!"><span class="bi bi-person-fill fw-bold"></span>&nbsp;AybarOzcan</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#!"><span class="bi bi-door-closed fw-bold"></span>&nbsp;Çıkış</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    @RenderBody()
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class=" text-center text-white fw-bold">
+                        Site Haritası
+                    </h5>
+                    <p class="m-0 text-center">
+                        <a class="fw-bold text-white" href="#"><span class="bi bi-info-circle-fill fw-bold"></span>&nbsp;Hakkımızda</a><br />
+                        <a class="fw-bold text-white" href="#"><span class="bi bi-heart fw-bold"></span>&nbsp;En Beğenilenler</a><br />
+                        <a class="fw-bold text-white" href="#"><span class="bi bi-list fw-bold"></span>&nbsp;Son Yazılanlar</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class=" text-center text-white fw-bold">
+                        MyEvernote
+                    </h5>
+                    <p class="m-0 text-center text-white">Sitemizin Tüm Hakları Saklıdır. &copy;  @DateTime.Now.Year</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class=" text-center text-white fw-bold">
+                        E-Bülten Üyeliği
+                    </h5>
+                    <div class="input-group mb-3" style="margin-left: auto; margin-right: auto; width: 300px;">
+                        <p class="m-0 text-center text-white"> E-Bülten üyeliği için lütfen bize e-posta adresinizi gönderiniz.</p>
+                        <input type="text" class="form-control text-center" style="border-top-left-radius: 5px; border-bottom-left-radius: 5px;" placeholder="E-Posta adresiniz" aria-label="eposta" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-light" type="submit" id="button-addon2">&nbsp;Gönder</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
