@@ -32,3 +32,5 @@ C:\Users\ybroz\Source\Repos\MyEvernote\MyEvernote.BusinessLayer\obj\Debug\MyEver
 C:\Users\ybroz\Source\Repos\MyEvernote\MyEvernote.BusinessLayer\obj\Debug\MyEvernote.BusinessLayer.csproj.CopyComplete
 C:\Users\ybroz\Source\Repos\MyEvernote\MyEvernote.BusinessLayer\obj\Debug\MyEvernote.BusinessLayer.dll
 C:\Users\ybroz\Source\Repos\MyEvernote\MyEvernote.BusinessLayer\obj\Debug\MyEvernote.BusinessLayer.pdb
+C:\Users\ybroz\Source\Repos\MyEvernote\MyEvernote.BusinessLayer\bin\Debug\FakeData.dll
+C:\Users\ybroz\Source\Repos\MyEvernote\MyEvernote.BusinessLayer\bin\Debug\FakeData.pdb
